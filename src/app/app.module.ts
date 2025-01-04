@@ -15,6 +15,7 @@ import { AboutComponent } from './about/about.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { FormComponent } from './form/form.component';
 import { FormsModule } from '@angular/forms';
+import { SolarcleaningComponent } from './solarcleaning/solarcleaning.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FormsModule } from '@angular/forms';
     ContactComponent,
     GalleryComponent,
     AboutComponent,
-    FormComponent
+    FormComponent,
+    SolarcleaningComponent
   ],
   imports: [
     BrowserModule,
