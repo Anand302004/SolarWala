@@ -14,7 +14,7 @@ const routes: Routes = [
   {path:'gallery', component:GalleryComponent},
   {path:'about', component:AboutComponent},
   {path:'form',component:FormComponent},
-  {path:'solarl',component:SolarlightComponent},
+  {path:'solarlight',component:SolarlightComponent},
   {path:'**',component:HomeComponent}
   
   
