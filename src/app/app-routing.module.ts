@@ -13,7 +13,6 @@ const routes: Routes = [
   {path:'gallery', component:GalleryComponent},
   {path:'about', component:AboutComponent},
   {path:'form',component:FormComponent},
-
   {path:'**',component:HomeComponent}
   
 
