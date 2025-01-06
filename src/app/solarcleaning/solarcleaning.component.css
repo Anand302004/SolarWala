@@ -1,0 +1,148 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Full page height and width */
+  html, body {
+    height: 100%; /* Full height of the screen */
+    width: 100%;  /* Full width of the screen */
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Light background */
+    color: #333;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: flex-start; /* Align content at the top of the page */
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Main container */
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Max width ensures content doesn't stretch too far */
+    padding: 40px; /* Uniform padding on all sides */
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto; /* This centers the container horizontally */
+  }
+  
+  /* Title Styling */
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #3498db; /* Blue */
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+  }
+  
+  /* Intro Description */
+  .intro-description {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding: 20px;
+    background-color: #ecf2f7; /* Light blue background */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Image Gallery Layout */
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+    width: 100%;
+  }
+  
+  /* Individual Image Item */
+  .image-item {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: calc(25% - 20px); /* 4 items per row on large screens */
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ecf0f1;
+  }
+  
+  .image-item:hover {
+    transform: translateY(-8px); /* Hover lift effect */
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  }
+  
+  /* Image Styling: Ensure all images are the same size */
+  .image-item img {
+    width: 100%;
+    height: 250px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures images maintain their aspect ratio and fill the container */
+    border-radius: 15px 15px 0 0; /* Rounded top corners */
+  }
+  
+  .image-item:hover img {
+    transform: scale(1.05); /* Zoom in effect */
+  }
+  
+  /* Description for each image */
+  .image-description {
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 0 0 15px 15px;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 500;
+    box-shadow: inset 0 -2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Remove the hover background color effect */
+  .image-item:hover .image-description {
+    background-color: #ffffff; /* Keep it white */
+    color: #333; /* Keep the text color unchanged */
+  }
+  
+  /* Responsive Layout: Medium screens (tablets) */
+  @media (max-width: 768px) {
+    .image-item {
+      width: calc(50% - 20px); /* 2 items per row on tablets */
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    .intro-description {
+      font-size: 1.1rem;
+    }
+  }
+  
+  /* Responsive Layout: Small screens (phones) */
+  @media (max-width: 480px) {
+    .image-item {
+      width: 100%; /* Full width on mobile */
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .intro-description {
+      font-size: 1rem;
+    }
+  
+    .container {
+      padding: 20px;
+    }
+  }

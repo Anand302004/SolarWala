@@ -5,6 +5,7 @@ import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { AboutComponent } from './about/about.component';
 import { FormComponent } from './form/form.component';
+import { SolarcleaningComponent } from './solarcleaning/solarcleaning.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'home',pathMatch:'full'},
@@ -13,8 +14,8 @@ const routes: Routes = [
   {path:'gallery', component:GalleryComponent},
   {path:'about', component:AboutComponent},
   {path:'form',component:FormComponent},
-
-  {path:'**',component:HomeComponent}
+  {path:'solarcleaning', component:SolarcleaningComponent},
+  {path:'**',component:HomeComponent},
   
 
 ];
