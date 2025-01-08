@@ -18,6 +18,7 @@ import { FormsModule } from '@angular/forms';
 import { SolarcleaningComponent } from './solarcleaning/solarcleaning.component';
 import { SolarlightComponent } from './solarlight/solarlight.component';
 import { DcWireComponent } from './dc-wire/dc-wire.component';
+import { UtlComponent } from './utl/utl.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { DcWireComponent } from './dc-wire/dc-wire.component';
     FormComponent,
     SolarcleaningComponent,
     SolarlightComponent,
-    DcWireComponent
+    DcWireComponent,
+    UtlComponent
   ],
   imports: [
     BrowserModule,
