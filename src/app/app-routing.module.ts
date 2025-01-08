@@ -5,6 +5,7 @@ import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { AboutComponent } from './about/about.component';
 import { FormComponent } from './form/form.component';
+import { SolarcleaningComponent } from './solarcleaning/solarcleaning.component';
 import { SolarlightComponent } from './solarlight/solarlight.component';
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path:'gallery', component:GalleryComponent},
   {path:'about', component:AboutComponent},
   {path:'form',component:FormComponent},
+  {path:'solarcleaning', component:SolarcleaningComponent},
   {path:'solarlight',component:SolarlightComponent},
   {path:'**',component:HomeComponent}
   
