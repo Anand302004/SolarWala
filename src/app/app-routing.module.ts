@@ -15,8 +15,11 @@ const routes: Routes = [
   {path:'gallery', component:GalleryComponent},
   {path:'about', component:AboutComponent},
   {path:'form',component:FormComponent},
-  {path:'solarcleaning', component:SolarcleaningComponent},
+  {path:'product',children:[
+    {path:'solarcleaning', component:SolarcleaningComponent},
   {path:'solarlight',component:SolarlightComponent},
+  ]},
+  
   {path:'**',component:HomeComponent}
   
   
