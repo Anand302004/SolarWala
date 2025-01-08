@@ -18,6 +18,7 @@ import { FormsModule } from '@angular/forms';
 import { SolarcleaningComponent } from './solarcleaning/solarcleaning.component';
 import { SolarlightComponent } from './solarlight/solarlight.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +31,8 @@ import { SolarlightComponent } from './solarlight/solarlight.component';
     AboutComponent,
     FormComponent,
     SolarcleaningComponent,
-    SolarlightComponent
+    SolarlightComponent,
+   
   ],
   imports: [
     BrowserModule,
