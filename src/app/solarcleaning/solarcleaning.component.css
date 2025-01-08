@@ -1,32 +1,40 @@
-/* Add a custom background to the hero section */
+/* Hero Section */
 .hero {
   background: url('solartitle11.jpg') no-repeat center center;
   background-size: cover;
   padding: 80px 0;
 }
 
-/* Add some padding to the service section cards */
+/* Left-aligned headings (h2, h5) */
+h2, h5 {
+  text-align: left;
+}
+
+/* Ensure the cards have equal height */
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Ensure images inside cards are the same size */
+.service-card-img {
+  height: 250px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensures images maintain aspect ratio and fill the space */
+}
+
+/* Add consistent padding to the card body */
 .card-body {
   padding: 1.5rem;
+  flex-grow: 1; /* Ensures the card body takes up available space */
 }
 
-/* Style for the cards */
-.card {
-  border-radius: 15px;
-  transition: transform 0.3s ease;
-}
-
+/* Hover effect for cards */
 .card:hover {
   transform: scale(1.05);
 }
 
-/* Style for the images */
-.img-fluid {
-  border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-/* Style for buttons */
+/* Styling for buttons */
 .btn-lg {
   padding: 15px 30px;
   font-size: 18px;
@@ -43,4 +51,15 @@
 
 .contact-btn:hover {
   background-color: #45a049;
+}
+.text-tb{
+  color: black;
+}
+
+.margin{
+  margin-left: 5%;
+}
+
+.justify{
+  text-align: justify;
 }
