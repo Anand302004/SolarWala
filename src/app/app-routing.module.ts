@@ -6,6 +6,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { AboutComponent } from './about/about.component';
 import { FormComponent } from './form/form.component';
 import { SolarlightComponent } from './solarlight/solarlight.component';
+import { DcWireComponent } from './dc-wire/dc-wire.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'home',pathMatch:'full'},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path:'about', component:AboutComponent},
   {path:'form',component:FormComponent},
   {path:'solarlight',component:SolarlightComponent},
+  {path:'dc-wire',component:DcWireComponent},
   {path:'**',component:HomeComponent}
   
   
