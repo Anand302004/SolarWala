@@ -17,6 +17,8 @@ import { FormComponent } from './form/form.component';
 import { FormsModule } from '@angular/forms';
 import { SolarcleaningComponent } from './solarcleaning/solarcleaning.component';
 import { ACDBDCDBComponent } from './acdb-dcdb/acdb-dcdb.component';
+import { SolarlightComponent } from './solarlight/solarlight.component';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ACDBDCDBComponent } from './acdb-dcdb/acdb-dcdb.component';
     AboutComponent,
     FormComponent,
     SolarcleaningComponent,
-    ACDBDCDBComponent
+    ACDBDCDBComponent,
+    SolarlightComponent,
+   
   ],
   imports: [
     BrowserModule,
