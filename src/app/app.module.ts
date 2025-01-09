@@ -16,6 +16,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { FormComponent } from './form/form.component';
 import { FormsModule } from '@angular/forms';
 import { SolarcleaningComponent } from './solarcleaning/solarcleaning.component';
+import { ACDBDCDBComponent } from './acdb-dcdb/acdb-dcdb.component';
 import { SolarlightComponent } from './solarlight/solarlight.component';
 
 
@@ -31,6 +32,7 @@ import { SolarlightComponent } from './solarlight/solarlight.component';
     AboutComponent,
     FormComponent,
     SolarcleaningComponent,
+    ACDBDCDBComponent,
     SolarlightComponent,
    
   ],
