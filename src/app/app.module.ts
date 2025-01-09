@@ -18,6 +18,8 @@ import { FormsModule } from '@angular/forms';
 import { SolarcleaningComponent } from './solarcleaning/solarcleaning.component';
 import { ACDBDCDBComponent } from './acdb-dcdb/acdb-dcdb.component';
 import { SolarlightComponent } from './solarlight/solarlight.component';
+import { DcWireComponent } from './dc-wire/dc-wire.component';
+import { UtlComponent } from './utl/utl.component';
 
 
 @NgModule({
@@ -32,8 +34,11 @@ import { SolarlightComponent } from './solarlight/solarlight.component';
     AboutComponent,
     FormComponent,
     SolarcleaningComponent,
-    ACDBDCDBComponent,
     SolarlightComponent,
+    DcWireComponent,
+    UtlComponent,
+    ACDBDCDBComponent,
+   
    
   ],
   imports: [
