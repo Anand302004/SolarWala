@@ -5,9 +5,12 @@ import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { AboutComponent } from './about/about.component';
 import { FormComponent } from './form/form.component';
+import { ACDBDCDBComponent } from './acdb-dcdb/acdb-dcdb.component';
 import { SolarcleaningComponent } from './solarcleaning/solarcleaning.component';
 import { SolarlightComponent } from './solarlight/solarlight.component';
 import { Mc4connectorComponent } from './mc4connector/mc4connector.component';
+import { DcWireComponent } from './dc-wire/dc-wire.component';
+import { UtlComponent } from './utl/utl.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'home',pathMatch:'full'},
@@ -16,9 +19,12 @@ const routes: Routes = [
   {path:'gallery', component:GalleryComponent},
   {path:'about', component:AboutComponent},
   {path:'form',component:FormComponent},
+  {path :'AcdbDcdb', component: ACDBDCDBComponent },
   {path:'solarcleaning', component:SolarcleaningComponent},
   {path:'solarlight',component:SolarlightComponent},
   {path:'mc4connector', component:Mc4connectorComponent},
+  {path:'dc-wire',component:DcWireComponent},
+  {path:'utl',component:UtlComponent},
   {path:'**',component:HomeComponent}
   
   
