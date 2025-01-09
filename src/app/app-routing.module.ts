@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { FormComponent } from './form/form.component';
 import { SolarcleaningComponent } from './solarcleaning/solarcleaning.component';
 import { SolarlightComponent } from './solarlight/solarlight.component';
+import { Mc4connectorComponent } from './mc4connector/mc4connector.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'home',pathMatch:'full'},
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path:'form',component:FormComponent},
   {path:'solarcleaning', component:SolarcleaningComponent},
   {path:'solarlight',component:SolarlightComponent},
+  {path:'mc4connector', component:Mc4connectorComponent},
   {path:'**',component:HomeComponent}
   
   

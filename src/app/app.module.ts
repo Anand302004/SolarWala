@@ -17,6 +17,7 @@ import { FormComponent } from './form/form.component';
 import { FormsModule } from '@angular/forms';
 import { SolarcleaningComponent } from './solarcleaning/solarcleaning.component';
 import { SolarlightComponent } from './solarlight/solarlight.component';
+import { Mc4connectorComponent } from './mc4connector/mc4connector.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { SolarlightComponent } from './solarlight/solarlight.component';
     FormComponent,
     SolarcleaningComponent,
     SolarlightComponent,
+    Mc4connectorComponent,
    
   ],
   imports: [
