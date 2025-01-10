@@ -9,7 +9,7 @@
         <div class="col-md-6 text-center text-lg-end ">
             <div class=" d-inline-flex align-items-center bg-secondary text-white  px-5">
                 <div class="me-3 pe-3 border-end py-2">
-                    <p class="m-0  "><i class="fa fa-envelope-open me-2 lowc"> {{email}}</i></p>
+                    <h5 class="m-0 text-white"><i class="fa fa-envelope-open me-2"> {{email | lowercase}}</i></h5>
                 </div>
                 <div class="py-2">
                     <p class="m-0"><i class="fa fa-phone-alt me-2"></i>7263858888</p>
@@ -38,12 +38,15 @@
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
                 <div class="dropdown-menu fade-down m-0">
-                   <a routerLink="solarcleaning" class="dropdown-item">Solar-Cleaning</a>
-                    <a routerLink="solarlight" class="dropdown-item">Solar Light</a>
-                    <a routerLink="AcdbDcdb" class="dropdown-item">ACDB-DCDB</a>
-                    <a routerLink="utl" class="dropdown-item">UTL</a>
-                    <a routerLink="dc-wire" class="dropdown-item">DC-Wire</a>
-                    <a routerLink="mc4connector" class="dropdown-item">Mc4-Connector</a>
+                    
+  
+                    <a routerLink="product/solarcleaning" class="dropdown-item">Solar-Cleaning</a>
+                    <a routerLink="product/solarlight" class="dropdown-item">Solar Light</a>
+                    <a routerLink="product/AcdbDcdb" class="dropdown-item">ACDB-DCDB</a>
+                    <a routerLink="product/utl" class="dropdown-item">UTL</a>
+                    <a routerLink="product/dc-wire" class="dropdown-item">DC-Wire</a>
+                    <a routerLink="product/mc4connector" class="dropdown-item">Mc4-Connector</a>
+                   
                 </div>
             </div>
             <a routerLink="contact" routerLinkActive="active" class="nav-item nav-link">Contact</a>

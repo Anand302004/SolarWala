@@ -19,12 +19,15 @@ const routes: Routes = [
   {path:'gallery', component:GalleryComponent},
   {path:'about', component:AboutComponent},
   {path:'form',component:FormComponent},
-  {path :'AcdbDcdb', component: ACDBDCDBComponent },
-  {path:'solarcleaning', component:SolarcleaningComponent},
+  {path:'product',children:[
+    {path:'solarcleaning', component:SolarcleaningComponent},
   {path:'solarlight',component:SolarlightComponent},
+  {path :'AcdbDcdb', component: ACDBDCDBComponent },
   {path:'mc4connector', component:Mc4connectorComponent},
   {path:'dc-wire',component:DcWireComponent},
   {path:'utl',component:UtlComponent},
+  ]},
+  
   {path:'**',component:HomeComponent}
   
   
