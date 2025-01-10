@@ -1,0 +1,36 @@
+ 
+        
+       .ith :hover{
+        cursor: pointer;
+        transform: scale(1.2);
+        /* transform-origin: 50% 50%; */
+        /* transform: translateY(-8px);  */
+        box-shadow: 0 8px 0px rgba(0, 0, 0, 0.2);
+        
+        } 
+
+         
+     
+
+        .ith p:hover{
+            /* transform: none; */
+            transition: none;
+            transform: none;
+             }
+        
+        .height {
+            height: 300px;
+        }
+
+        
+
+        .big-image-height{
+            height: 600px;
+            width: 500px;
+        }
+
+     
+
+         
+       
+        
