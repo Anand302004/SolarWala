@@ -1,0 +1,12 @@
+.hi{
+    height: 60px !important;
+    margin:  -10px !important;
+}
+.m{
+    margin-top: 20px !important;
+}
+.b{
+    border: 2px solid black;
+    width: 60%;
+    text-align: center;
+}
