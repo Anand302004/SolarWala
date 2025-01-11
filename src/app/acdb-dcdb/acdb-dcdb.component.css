@@ -3,8 +3,8 @@
        .ith :hover{
         cursor: pointer;
         transform: scale(1.2);
-        /* transform-origin: 50% 50%; */
-        /* transform: translateY(-8px);  */
+        transform-origin: 50% 50%;
+        transform: translateY(-8px); 
         box-shadow: 0 8px 0px rgba(0, 0, 0, 0.2);
         
         } 

@@ -10,6 +10,7 @@ import { SolarcleaningComponent } from './solarcleaning/solarcleaning.component'
 import { SolarlightComponent } from './solarlight/solarlight.component';
 import { DcWireComponent } from './dc-wire/dc-wire.component';
 import { UtlComponent } from './utl/utl.component';
+import { FuseSpdComponent } from './fuse-spd/fuse-spd.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'home',pathMatch:'full'},
@@ -23,6 +24,7 @@ const routes: Routes = [
   {path:'solarlight',component:SolarlightComponent},
   {path:'dc-wire',component:DcWireComponent},
   {path:'utl',component:UtlComponent},
+  {path: 'fuseSpd', component:FuseSpdComponent},
   {path:'**',component:HomeComponent}
   
   

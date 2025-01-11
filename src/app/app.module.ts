@@ -20,6 +20,7 @@ import { ACDBDCDBComponent } from './acdb-dcdb/acdb-dcdb.component';
 import { SolarlightComponent } from './solarlight/solarlight.component';
 import { DcWireComponent } from './dc-wire/dc-wire.component';
 import { UtlComponent } from './utl/utl.component';
+import { FuseSpdComponent } from './fuse-spd/fuse-spd.component';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import { UtlComponent } from './utl/utl.component';
     DcWireComponent,
     UtlComponent,
     ACDBDCDBComponent,
+    FuseSpdComponent,
    
    
   ],
