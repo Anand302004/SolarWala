@@ -11,7 +11,7 @@
                                 <h5 class="text-primary text-uppercase mb-3 animated slideInDown">{{item.heading1}}</h5>
                                 <h1 class="display-3 text-white animated slideInDown">{{item.heading2}}</h1>
                                 <p class="fs-5 text-white mb-4 pb-2">{{item.heading3}}</p>
-                                <a routerLink="/about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">{{item.btn1}}</a>
+                                <a routerLink={{item.pt}} class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">{{item.btn1}}</a>
                                 <a routerLink="/form" class="btn btn-light py-md-3 px-md-5 animated slideInRight">{{item.btn2}}</a>
                             </div>
                         </div>
@@ -19,8 +19,6 @@
                 </div>
             </div>
         </ng-template>
-
-
       </owl-carousel-o>
     </div>
 </div>
