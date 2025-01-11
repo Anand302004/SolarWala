@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-  background: url('solartitle11.jpg') no-repeat center center;
+  background: url('/assets/priti-img/sss.jpg') no-repeat center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -53,7 +53,7 @@ h2, h5 {
   background-color: #45a049;
 }
 .text-tb{
-  color: black;
+  color: black !important;
 }
 
 .margin{
@@ -63,3 +63,13 @@ h2, h5 {
 .justify{
   text-align: justify;
 }
+
+.high{
+  height: 250px;
+}
+
+.botto{
+  width: 90%;
+  border-radius: 10px;
+}
+

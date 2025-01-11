@@ -1,0 +1,32 @@
+ 
+        .card-body{
+            box-shadow: 2px 2px 2px 2px rgba(19, 163, 224, 0.2);
+            height: 300px;
+        
+        }
+       
+        /* all big image */
+
+        .bigimage{
+         height: 400px;   
+        }
+        .container{
+            margin-top: 100px;
+        }
+
+         .second-right-image-size{
+            margin-left: 100px;
+        } 
+        .height {
+            height: 300px;
+            width: 500px;
+        }
+
+        
+
+    
+     
+
+         
+       
+        
