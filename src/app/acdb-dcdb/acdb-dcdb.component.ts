@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./acdb-dcdb.component.css']
 })
 export class ACDBDCDBComponent {
+  acbd ="ACDB-DCDB";
 
 }

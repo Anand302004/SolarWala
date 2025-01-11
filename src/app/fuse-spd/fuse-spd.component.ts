@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class FuseSpdComponent {
 
+  fuse ="fuse Spd And MCB";
+
 }

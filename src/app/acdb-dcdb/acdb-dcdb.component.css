@@ -1,6 +1,6 @@
  
         
-       .ith :hover{
+       .ith  :hover{
         cursor: pointer;
         transform: scale(1.2);
         transform-origin: 50% 50%;
@@ -10,10 +10,12 @@
         } 
 
          
-     
+     .first-biimage{
+        margin-top: 100px;
+     }
 
-        .ith p:hover{
-            /* transform: none; */
+        .p:hover{
+            
             transition: none;
             transform: none;
              }
