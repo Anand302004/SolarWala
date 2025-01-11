@@ -11,6 +11,7 @@ import { SolarlightComponent } from './solarlight/solarlight.component';
 import { Mc4connectorComponent } from './mc4connector/mc4connector.component';
 import { DcWireComponent } from './dc-wire/dc-wire.component';
 import { UtlComponent } from './utl/utl.component';
+import { FuseSpdComponent } from './fuse-spd/fuse-spd.component';
 import { LAEarthingpageComponent } from './la-earthingpage/la-earthingpage.component';
 
 const routes: Routes = [
@@ -27,6 +28,7 @@ const routes: Routes = [
   {path:'mc4connector', component:Mc4connectorComponent},
   {path:'dc-wire',component:DcWireComponent},
   {path:'utl',component:UtlComponent},
+  {path: 'fuseSpd', component:FuseSpdComponent},
   {path:'la-earthing',component:LAEarthingpageComponent},
   ]},
   

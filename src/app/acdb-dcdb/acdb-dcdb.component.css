@@ -1,19 +1,21 @@
  
         
-       .ith :hover{
+       .ith  :hover{
         cursor: pointer;
         transform: scale(1.2);
-        /* transform-origin: 50% 50%; */
-        /* transform: translateY(-8px);  */
+        transform-origin: 50% 50%;
+        transform: translateY(-8px); 
         box-shadow: 0 8px 0px rgba(0, 0, 0, 0.2);
         
         } 
 
          
-     
+     .first-biimage{
+        margin-top: 100px;
+     }
 
-        .ith p:hover{
-            /* transform: none; */
+        .p:hover{
+            
             transition: none;
             transform: none;
              }

@@ -21,6 +21,7 @@ import { SolarlightComponent } from './solarlight/solarlight.component';
 import { Mc4connectorComponent } from './mc4connector/mc4connector.component';
 import { DcWireComponent } from './dc-wire/dc-wire.component';
 import { UtlComponent } from './utl/utl.component';
+import { FuseSpdComponent } from './fuse-spd/fuse-spd.component';
 import { LAEarthingpageComponent } from './la-earthingpage/la-earthingpage.component';
 
 
@@ -41,6 +42,7 @@ import { LAEarthingpageComponent } from './la-earthingpage/la-earthingpage.compo
     DcWireComponent,
     UtlComponent,
     ACDBDCDBComponent,
+    FuseSpdComponent,
     LAEarthingpageComponent,
    
    
