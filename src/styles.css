@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 /********** Template CSS **********/
-
+.font{
+font-size: medium !important;
+}
 :root {
     --primary: #06BBCC;
     --light: #F0FBFC;
