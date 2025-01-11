@@ -33,11 +33,18 @@ export class CarouselComponent {
 
   slidesStore: any = [
     {
-      id: 1, src: "https://th.bing.com/th/id/OIP.FfuILwnK53p9wEbdSUOm4AAAAA?w=474&h=306&rs=1&pid=ImgDetMain",
-      heading1: 'All types of Solar Projects & Maintenance', btn1: 'Read More', btn2: 'Join Now', heading2: 'Able Technoficient opc pvt ltd', heading3: "India's top most solar sales & maintenance company"
+      id: 1, src: "assets/priti-img/solarcomer.jpg",
+      heading1: 'All types of Solar Projects & Maintenance', btn1: 'Read More', btn2: 'Join Now', heading2: 'Solar Panel Cleaning', heading3: "India's top most solar sales & maintenance company",pt:"/product/solarcleaning"
     },
-    { id: 2, src: "https://wallpapercave.com/wp/wp8084883.jpg",
-      heading1: 'Available for world', btn1: 'Read More', btn2: 'Join Now', heading2: 'Working world wide', heading3: 'Now it is easy to do solar installation in the world of solar.' 
+    { id: 2, src: "assets/img/dj1.jpg",
+      heading1: 'Available for world', btn1: 'Read More', btn2: 'Join Now', heading2: 'Solar Lights', heading3: 'Now it is easy to do solar installation in the world of solar.', pt:"/product/solarlight"
+    },
+    {
+      id: 3, src: "assets/img/carousel4.webp",
+      heading1: 'All types of Solar Projects & Maintenance', btn1: 'Read More', btn2: 'Join Now', heading2: 'UTL String ', heading3: "India's top most solar sales & maintenance company",pt:"/product/utl"
+    },
+    { id: 4, src: "assets/priti-img/setup2.jpg",
+      heading1: 'Available for world', btn1: 'Read More', btn2: 'Join Now', heading2: 'MC4 Connector', heading3: 'Now it is easy to do solar installation in the world of solar.', pt:"/product/mc4connector"
     }
   ];
   constructor() { }
