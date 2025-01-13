@@ -73,3 +73,22 @@ h2, h5 {
   border-radius: 10px;
 }
 
+.w1{
+  width: 48%;
+
+}
+.w2{
+  width: 48%;
+  margin-left: 4%;
+}
+
+.w3{
+  width: 48%;
+  height: 35%;
+
+}
+.w4{
+  width: 48%;
+  height: 35%;
+  margin-left: 4%;
+}
