@@ -1,12 +1,16 @@
 .hi{
-    height: 60px !important;
+    height: 10% !important;
     margin:  -10px !important;
+    width: 100%;
 }
 .m{
     margin-top: 20px !important;
 }
 .b{
     border: 2px solid black;
-    width: 60%;
+    width: 80%;
     text-align: center;
+}
+.d{
+    height: 10% !important;
 }
