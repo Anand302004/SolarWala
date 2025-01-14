@@ -11,3 +11,6 @@
 .b{
     border: 2px solid black;
 }
+.t{
+    text-align: center !important;
+}
