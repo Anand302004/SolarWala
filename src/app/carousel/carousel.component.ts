@@ -41,7 +41,7 @@ export class CarouselComponent {
     },
     {
       id: 3, src: "assets/img/utl2.jpg",
-      heading1: 'All types of Solar Projects & Maintenance', btn1: 'Read More', btn2: 'Join Now', heading2: 'UTL String ', heading3: "India's top most solar sales & maintenance company",pt:"/product/utl"
+      heading1: 'All types of Solar Projects & Maintenance', btn1: 'Read More', btn2: 'Join Now', heading2: 'Solarwala String ', heading3: "India's top most solar sales & maintenance company",pt:"/product/solarcleaning"
     },
     { id: 4, src: "assets/priti-img/setup2.jpg",
       heading1: 'Available for world', btn1: 'Read More', btn2: 'Join Now', heading2: 'MC4 Connector', heading3: 'Now it is easy to do solar installation in the world of solar.', pt:"/product/mc4connector"
